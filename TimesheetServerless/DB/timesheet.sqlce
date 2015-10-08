@@ -1,0 +1,15 @@
+-- Script Date: 10/8/2015 1:34 PM  - ErikEJ.SqlCeScripting version 3.5.2.56
+CREATE TABLE [TIMESHEET] (
+  [TableID] INTEGER NOT NULL
+, [FirstName] nchar(20) NOT NULL
+, [LastName] nchar(20) NOT NULL
+, [PunchIn] nchar(56) NOT NULL
+, [LunchIn] nchar(56) NOT NULL
+, [LunchOut] nchar(56) NOT NULL
+, [PunchOut] nchar(56) NOT NULL
+, [Reason] nchar(100) NOT NULL
+, [Assoc] nchar(56) NOT NULL
+, [Admin] nchar(56) NOT NULL
+, [Week] nchar(56) NOT NULL
+, CONSTRAINT [PK_TIMESHEET] PRIMARY KEY ([TableID])
+);

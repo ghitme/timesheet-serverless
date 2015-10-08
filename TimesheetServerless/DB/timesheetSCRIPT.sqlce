@@ -1,0 +1,15 @@
+-- Script Date: 10/8/2015 1:40 PM  - ErikEJ.SqlCeScripting version 3.5.2.56
+UPDATE [TIMESHEET] 
+   SET [TableID] = <TableID, bigint,>
+   	  ,[EmployeeID] = <EmployeeID, nchar(3),>
+      ,[FirstName] = <FirstName, nchar(20),>
+      ,[LastName] = <LastName, nchar(20),>
+      ,[PunchIn] = <PunchIn, nchar(56),>
+      ,[LunchIn] = <LunchIn, nchar(56),>
+      ,[LunchOut] = <LunchOut, nchar(56),>
+      ,[PunchOut] = <PunchOut, nchar(56),>
+      ,[Reason] = <Reason, nchar(100),>
+      ,[Assoc] = <Assoc, nchar(56),>
+      ,[Admin] = <Admin, nchar(56),>
+      ,[Week] = <Week, nchar(56),>
+ WHERE <Search Conditions,,>;

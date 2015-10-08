@@ -1,0 +1,11 @@
+-- Script Date: 10/8/2015 11:03 AM  - ErikEJ.SqlCeScripting version 3.5.2.56
+CREATE TABLE [EMPLOYEESQLITE] (
+  [EmployeeID] bigint NOT NULL
+, [FirstName] nchar(25) NOT NULL
+, [LastName] nchar(25) NOT NULL
+, [Department] nchar(25) NOT NULL
+, [Phone] nchar(25) NOT NULL
+, [Email] nchar(25) NOT NULL
+, [StartingDate] nchar(25) NOT NULL
+, CONSTRAINT [sqlite_master_PK_EMPLOYEESQLITE] PRIMARY KEY ([Id])
+);
