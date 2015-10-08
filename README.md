@@ -5,3 +5,5 @@ This is a version of the timesheet project that uses SQLite instead of SQL. By r
 2 Tables: 1 is a timesheet with job-like functionality that gives managers the opportunity to track employees' clocking times, and note any reason for irregularities; and 2nd, an employee datatable records employees' basic information: first and last names, department they work at, phone, email, and starting date of employment, as well as remove employees from the records, or update their information.
 
 SQLite usage is limited to CRUD operations, and Winforms technologies are used for the interface.
+
+Requirements: .Net 4.0
