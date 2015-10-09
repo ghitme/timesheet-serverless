@@ -6,6 +6,7 @@ This is a version of the timesheet project that uses SQLite instead of SQL. By r
 
 SQLite usage is limited to CRUD operations, and Winforms technologies are used for the interface.
 
-> Executable location is TimesheetServerless/bin/x86/Release/TimesheetServerless.exe
+Executable location:
+> TimesheetServerless/bin/x86/Release/TimesheetServerless.exe
 
 Requirements: .Net 4.0
